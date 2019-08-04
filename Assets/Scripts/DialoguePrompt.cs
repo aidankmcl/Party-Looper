@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+public enum PromptColor{Pink,Yellow,BabyBlue};
+
 [System.Serializable]
 public class AlternatePrompts {
     [TextArea(3, 5)]
